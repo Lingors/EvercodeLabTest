@@ -114,7 +114,7 @@ function App() {
                     `contractaddress=${balances[i].contract}&` +
                     `address=${balances[i].address}&` +
                     'tag=latest&' +
-                    'apikey=TNQ9X77UMCEGC7JUJE72RPYEDEC58T4R8P')
+                    'apikey=')
                     .then(response => response.json())
                     .then(data => {
                         // если успешно, то меняем баланс, иначе нет
